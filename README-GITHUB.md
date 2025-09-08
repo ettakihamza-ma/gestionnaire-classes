@@ -2,7 +2,7 @@
 
 > Application moderne et locale pour la gestion complète des niveaux scolaires, classes, élèves avec système de groupes flexibles, cahier journal électronique, suivi de progression et gestion des tâches.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/ettakihamza/gestionnaire-classes)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/ettakihamza-ma/gestionnaire-classes)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
 [![Electron](https://img.shields.io/badge/Electron-32.3.3-47848f.svg)](https://electronjs.org/)
 
@@ -20,7 +20,7 @@
 
 ### Version Desktop (Recommandée)
 
-1. **Téléchargez** la dernière version depuis [Releases](https://github.com/ettakihamza/gestionnaire-classes/releases)
+1. **Téléchargez** la dernière version depuis [Releases](https://github.com/ettakihamza-ma/gestionnaire-classes/releases)
 2. **Exécutez** `Gestionnaire de Classes pour Enseignants Setup.exe`
 3. **Suivez** l'assistant d'installation
 4. **Lancez** l'application depuis le bureau ou le menu Démarrer
@@ -29,7 +29,7 @@
 
 1. Clonez le repository :
 ```bash
-git clone https://github.com/ettakihamza/gestionnaire-classes.git
+git clone https://github.com/ettakihamza-ma/gestionnaire-classes.git
 cd gestionnaire-classes
 ```
 
@@ -112,7 +112,7 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE.txt](LICENSE.txt) pour
 
 **Hamza Ettaki**
 - LinkedIn: [ettaki](https://www.linkedin.com/in/ettaki/)
-- GitHub: [@ettakihamza](https://github.com/ettakihamza)
+- GitHub: [@ettakihamza-ma](https://github.com/ettakihamza-ma)
 
 ## 🙏 Remerciements
 
