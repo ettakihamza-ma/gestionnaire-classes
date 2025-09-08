@@ -1,0 +1,81 @@
+{
+  "name": "gestionnaire-classes-enseignants",
+  "version": "1.0.0",
+  "description": "Application de gestion des classes pour enseignants",
+  "main": "electron-main.js",
+  "homepage": "./",
+  "author": "Hamza Ettaki",
+  "license": "MIT",
+  "scripts": {
+    "electron": "electron .",
+    "electron-dev": "electron . --dev",
+    "build": "electron-builder",
+    "build-win": "electron-builder --win",
+    "dist": "electron-builder --publish=never",
+    "pack": "electron-builder --dir"
+  },
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "electron-builder": "^25.0.0",
+    "electron-icon-builder": "^2.0.1",
+    "png2icons": "^2.0.1"
+  },
+  "build": {
+    "appId": "com.enseignants.gestionnaire-classes",
+    "productName": "Gestionnaire de Classes pour Enseignants",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/**/*",
+      "!dist/**/*",
+      "!test-*.html",
+      "!*.md",
+      "!assets/*.svg"
+    ],
+    "extraResources": [
+      {
+        "from": "assets/",
+        "to": "assets/",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "mac": {
+      "icon": "assets/icon.png",
+      "category": "public.app-category.education"
+    },
+    "linux": {
+      "icon": "assets/icon.png",
+      "category": "Education"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Gestionnaire de Classes",
+      "uninstallDisplayName": "Gestionnaire de Classes",
+      "license": "LICENSE.txt",
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico"
+    }
+  },
+  "dependencies": {
+    "canvas": "^3.2.0"
+  }
+}

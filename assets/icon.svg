@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arrière-plan principal -->
+  <rect width="256" height="256" fill="#2563eb" rx="32"/>
+  
+  <!-- Icône de livre/cahier -->
+  <rect x="64" y="48" width="128" height="160" fill="#ffffff" rx="8"/>
+  <rect x="72" y="56" width="112" height="144" fill="#f8fafc" rx="4"/>
+  
+  <!-- Lignes du cahier -->
+  <line x1="80" y1="80" x2="176" y2="80" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="80" y1="100" x2="176" y2="100" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="80" y1="120" x2="176" y2="120" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="80" y1="140" x2="176" y2="140" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="80" y1="160" x2="176" y2="160" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Marge -->
+  <line x1="104" y1="56" x2="104" y2="200" stroke="#f87171" stroke-width="2"/>
+  
+  <!-- Icône d'élève/personne -->
+  <circle cx="140" cy="180" r="8" fill="#2563eb"/>
+  <path d="M128 196 Q140 192 152 196 L152 200 L128 200 Z" fill="#2563eb"/>
+  
+  <!-- Graduation cap -->
+  <rect x="132" y="168" width="16" height="8" fill="#1d4ed8" rx="2"/>
+  <polygon points="136,168 144,164 152,168" fill="#1d4ed8"/>
+</svg>
