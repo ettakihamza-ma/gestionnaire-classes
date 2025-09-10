@@ -6,6 +6,13 @@
   "homepage": "./",
   "author": "Hamza Ettaki",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ettakihamza-ma/gestionnaire-classes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ettakihamza-ma/gestionnaire-classes/issues"
+  },
   "scripts": {
     "electron": "electron .",
     "electron-dev": "electron . --dev",
