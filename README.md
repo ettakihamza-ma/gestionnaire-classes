@@ -4,6 +4,7 @@
 
 Cette application web moderne et locale est spécialement conçue pour les enseignants du primaire. Elle permet une gestion complète et intuitive des niveaux scolaires, classes, élèves avec système de groupes flexibles, cahier journal électronique, suivi de progression (compétences et présences), et gestion des tâches. Toutes les données sont stockées localement via `localStorage` pour une utilisation hors ligne complète.
 
+Demo app pour windows : https://drive.google.com/file/d/1lvIMtqh83H9WO5-1tjq5_LcAjQDCU8TO/view?usp=sharing
 ### ✨ Fonctionnalités Clés Récentes
 - **🎯 Gestion des Groupes/Demi-Classes** : Configuration flexible pour enseignants travaillant avec la classe complète ou des groupes spécifiques
 - **📊 Présence Rapide Intelligente** : Interface optimisée avec filtrage par groupe et feedback visuel immédiat
